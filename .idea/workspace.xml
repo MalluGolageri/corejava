@@ -42,15 +42,25 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80607474">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state vertical-scroll-proportion="2.3130841">
+              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,33 +68,8 @@
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.925926">
-              <caret line="260" column="32" selection-start-line="260" selection-start-column="32" selection-end-line="260" selection-end-column="32" />
-              <folding>
-                <element signature="e#10189#10190#0" expanded="true" />
-                <element signature="e#10216#10217#0" expanded="true" />
-                <element signature="e#15414#15415#0" expanded="true" />
-                <element signature="e#15459#15460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3179" column="26" selection-start-line="3179" selection-start-column="26" selection-end-line="3179" selection-end-column="26" />
+              <caret line="502" column="24" selection-start-line="494" selection-start-column="8" selection-end-line="502" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -664,12 +649,12 @@
       <workItem from="1506320130353" duration="36000" />
       <workItem from="1506331415818" duration="6091000" />
       <workItem from="1506581652657" duration="18459000" />
-      <workItem from="1507029991331" duration="4633000" />
+      <workItem from="1507029991331" duration="6536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75072000" />
+    <option name="totallyTimeSpent" value="76975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1427" height="792" extended-state="0" />
@@ -771,13 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1085,35 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="600" column="28" selection-start-line="600" selection-start-column="28" selection-end-line="600" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.925926">
-          <caret line="260" column="32" selection-start-line="260" selection-start-column="32" selection-end-line="260" selection-end-column="32" />
-          <folding>
-            <element signature="e#10189#10190#0" expanded="true" />
-            <element signature="e#10216#10217#0" expanded="true" />
-            <element signature="e#15414#15415#0" expanded="true" />
-            <element signature="e#15459#15460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3179" column="26" selection-start-line="3179" selection-start-column="26" selection-end-line="3179" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mallu/parsing/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1127,16 +1076,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85747665">
+          <caret line="3179" column="26" selection-start-line="3179" selection-start-column="26" selection-end-line="3179" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="595" column="71" selection-start-line="595" selection-start-column="71" selection-end-line="595" selection-end-column="71" />
+          <folding>
+            <element signature="e#5343#5344#0" expanded="true" />
+            <element signature="e#5400#5401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="502" column="24" selection-start-line="494" selection-start-column="8" selection-end-line="502" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80607474">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state vertical-scroll-proportion="2.3130841">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
           </folding>
         </state>
       </provider>

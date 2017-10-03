@@ -13,13 +13,19 @@ public class Test {
 
 
         MyList<String> myList=new MyList<>();
-        myList.add("Oye");myList.add("Hello1");myList.add("Hello2");myList.add("Hello3");myList.add("Hello4");myList.add("Hello5");myList.add("Hello");myList.add("Hello");myList.add("Hello");myList.add("Hello");
-        myList.add("Oye");
+        myList.add("Oye");myList.add("Hello1");myList.add("Hello2");myList.add("Hello3");myList.add("Hello4");
+
 
         System.out.println(myList.size);
         for (int i=0;i<myList.size();i++){
             System.out.println(myList.get(i));
         }
+        System.out.println("After");
+        myList.remove(1);
+        for (int i=0;i<myList.size();i++){
+            System.out.println(myList.get(i));
+        }
+
     }
 }
 
@@ -27,7 +33,7 @@ class MyList<L> {
 
     int size;
 
-    int initialCapacity=10;
+    int initialCapacity=6;
 
     int totalCapacity=initialCapacity;
 
@@ -52,7 +58,19 @@ class MyList<L> {
             totalCapacity=newCapacity;
             objects = Arrays.copyOf(objects,newCapacity);
         }
+    }
 
+    public L remove(int index){
+        L oldValue = (L) objects[index];
+
+        //20== 10 == 20-10-1=9th place removed
+        int numMoved = size - index - 1;
+        if (numMoved > 0)
+            System.arraycopy(objects, index+1, objects, index,
+                    numMoved);
+        objects[--size] = null; // clear to let GC do its work
+
+        return oldValue;
     }
 
 }
