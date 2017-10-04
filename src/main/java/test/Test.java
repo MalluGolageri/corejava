@@ -2,38 +2,37 @@ package test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.TimerTask;
 
 /**
  * Created by golagem on 10/3/17.
  */
-public class Test {
+class Test {
     public static void main(String... args){
-
-
         MyList<String> myList=new MyList<>();
         myList.add("Oye");myList.add("Hello1");myList.add("Hello2");myList.add("Hello3");myList.add("Hello4");
 
-
-        System.out.println(myList.size);
-        for (int i=0;i<myList.size();i++){
-            System.out.println(myList.get(i));
-        }
-        System.out.println("After");
-        myList.remove(1);
+        myList.remove(2);
         for (int i=0;i<myList.size();i++){
             System.out.println(myList.get(i));
         }
 
     }
+
+    public static < E > void printArray(E[] elements) {
+        for ( E element : elements){
+            System.out.println(element );
+        }
+        System.out.println();
+    }
+
+
 }
 
 class MyList<L> {
 
     int size;
 
-    int initialCapacity=6;
+    int initialCapacity=4;
 
     int totalCapacity=initialCapacity;
 

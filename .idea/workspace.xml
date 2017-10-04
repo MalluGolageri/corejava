@@ -24,72 +24,116 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Practice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mallu/parsing/Practice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="class#Super#0" expanded="false" />
-                <element signature="class#Department#0" expanded="false" />
-                <element signature="method#hashCode#0;class#Employee#0" expanded="false" />
-                <element signature="method#equals#0;class#Employee#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3130841">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <file leaf-file-name="ArrayIndicesTarget.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/ArrayIndicesTarget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5794392">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InnerClasses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/InnerClasses.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InternationalizationDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/InternationalizationDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOException.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/IOException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <file leaf-file-name="ResourceBundle.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="502" column="24" selection-start-line="494" selection-start-column="8" selection-end-line="502" selection-end-column="24" />
+              <caret line="842" column="60" selection-start-line="842" selection-start-column="60" selection-end-line="842" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <file leaf-file-name="MessageBundle_en_US.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/MessageBundle_en_US.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <file leaf-file-name="Serialization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/Serialization.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="834" column="22" selection-start-line="834" selection-start-column="22" selection-end-line="834" selection-end-column="22" />
+              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectOutputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -122,6 +166,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mallu/parsing/Parent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mallu/parsing/Practice.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/MessageBundle_in_ID.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/MessageBundle_en_US.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/test/InternationalizationDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/InnerClasses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Serialization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/ArrayIndicesTarget.java" />
       </list>
     </option>
   </component>
@@ -264,6 +314,66 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html-parsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html-parsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Serialization.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html-parsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html-parsing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -320,15 +430,15 @@
       <recent name="com.mallu.parsing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="false" name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ArrayIndicesTarget">
+    <configuration default="false" name="InternationalizationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.mallu.parsing.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mallu.parsing.Practice" />
+      <option name="MAIN_CLASS_NAME" value="test.InternationalizationDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -341,14 +451,74 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FinalizeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <option name="MAIN_CLASS_NAME" value="test.FinalizeExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="html-parsing" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestMemberOuter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.TestMemberOuter1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="html-parsing" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.Serialization" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="html-parsing" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayIndicesTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="test.ArrayIndicesTarget" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -610,14 +780,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Practice" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.InternationalizationDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FinalizeExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestMemberOuter1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Serialization" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayIndicesTarget" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Practice" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayIndicesTarget" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Serialization" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestMemberOuter1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FinalizeExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InternationalizationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -649,12 +825,12 @@
       <workItem from="1506320130353" duration="36000" />
       <workItem from="1506331415818" duration="6091000" />
       <workItem from="1506581652657" duration="18459000" />
-      <workItem from="1507029991331" duration="6536000" />
+      <workItem from="1507029991331" duration="16400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76975000" />
+    <option name="totallyTimeSpent" value="86839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1427" height="792" extended-state="0" />
@@ -669,7 +845,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3230148" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3692946" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3692946" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -730,96 +906,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Boolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="249" column="27" selection-start-line="249" selection-start-column="27" selection-end-line="249" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="false" />
-            <element signature="e#5675#5676#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/Closeable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6296296">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -932,6 +1018,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.317757">
-          <caret line="196" column="13" selection-start-line="196" selection-start-column="13" selection-end-line="196" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1063,19 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mallu/parsing/Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="class#Super#0" expanded="false" />
-            <element signature="class#Department#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Employee#0" expanded="false" />
-            <element signature="method#equals#0;class#Employee#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.85747665">
@@ -1089,8 +1155,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="595" column="71" selection-start-line="595" selection-start-column="71" selection-end-line="595" selection-end-column="71" />
           <folding>
-            <element signature="e#5343#5344#0" expanded="true" />
-            <element signature="e#5400#5401#0" expanded="true" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1111,16 +1177,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mallu/parsing/Practice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3130841">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="class#Super#0" expanded="false" />
+            <element signature="class#Department#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Employee#0" expanded="false" />
+            <element signature="method#equals#0;class#Employee#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/rmi/Remote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#1320#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/MessageBundle_in_ID.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/MessageBundle_en_US.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="842" column="60" selection-start-line="842" selection-start-column="60" selection-end-line="842" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3317757">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/InternationalizationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/InnerClasses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="271" column="14" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ser.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Serialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/ArrayIndicesTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5794392">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
