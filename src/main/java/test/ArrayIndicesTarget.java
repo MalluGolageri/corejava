@@ -8,7 +8,6 @@ import java.util.List;
  */
 public class ArrayIndicesTarget {
 
-
     public static void main(String... args){
 
         int[] nums={2,7,6,3,1,8};
