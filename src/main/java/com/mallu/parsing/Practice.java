@@ -1,5 +1,8 @@
 package com.mallu.parsing;
 
+import org.apache.commons.lang.builder.EqualsBuilder;
+import org.apache.commons.lang.builder.HashCodeBuilder;
+
 import java.util.*;
 
 /**
@@ -9,16 +12,28 @@ public class Practice extends Parent {
     public static void main(String... args) {
         List<Employee> list=new ArrayList<>();
 
-        list.add(new Employee("mallu","bolageri"));
-        list.add(new Employee("hem", "chandra"));
+        Employee e1=new Employee("mallu","bolageri");
+        Employee e2=new Employee("hem", "chandra");
+        Employee e3=new Employee("hem", "chandra");
+        list.add(e1);
+        list.add(e2);
+        list.add(e3);
 
-        Collections.sort(list,new FirstNameComparator());
+        Collections.sort(list, new LastNameComparator());
 
         list.forEach(o -> {
-            Employee e=(Employee)o;
-            System.out.println(e.getName()+" "+e.getLastName());
+            Employee e = (Employee) o;
+          //  System.out.println(e.getName() + " " + e.getLastName());
         });
 
+
+        HashSet hashSet=new HashSet();
+        hashSet.add(e1);hashSet.add(e2);hashSet.add(e3);
+
+        hashSet.forEach(o -> {
+            Employee e=(Employee)o;
+            System.out.println(e.getName() +" "+e.getLastName());
+        });
     }
 }
 
@@ -72,11 +87,17 @@ class Employee implements Comparable {
 
     @Override
     public int hashCode() {
-        int prime = 31;
-        int result = 1;
-        result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
-        result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
-        return result;
+//        int prime = 31;
+//        int result = 1;
+//        result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
+//        result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
+//        //return result;
+//        System.out.println("Result:"+result);
+
+        int result1=new HashCodeBuilder().append(firstName).append(lastName).toHashCode();
+        System.out.println("Result1:"+result1);
+        return result1;
+
     }
 
     @Override
@@ -84,7 +105,10 @@ class Employee implements Comparable {
         if (!(obj instanceof Employee)) {
             return false;
         }
-        return this.getName().equals(((Employee) obj).getName());
+        Employee employee=(Employee)obj;
+//        return this.getName().equals(((Employee) obj).getName());
+
+        return new EqualsBuilder().append(getName(),employee.getName()).append(getLastName(),employee.getLastName()).isEquals();
     }
 
     public String getLastName() {
