@@ -1,5 +1,7 @@
 package test;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -16,6 +18,8 @@ class Test {
             System.out.println(myList.get(i));
         }
 
+        System.out.println(Integer.valueOf("5")==Integer.valueOf("5"));
+        System.out.println(new Integer(5)==new Integer(5));
     }
 
     public static < E > void printArray(E[] elements) {
@@ -24,6 +28,7 @@ class Test {
         }
         System.out.println();
     }
+
 
 
 }
