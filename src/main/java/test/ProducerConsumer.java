@@ -26,6 +26,7 @@ class Producer implements Runnable {
     public Producer(BlockingQueue sharedQueue) {
         this.sharedQueue = sharedQueue;
     }
+
     @Override
     public void run() {
         for(int i=0; i<10; i++){

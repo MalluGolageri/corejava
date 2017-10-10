@@ -20,8 +20,6 @@ public class BlockingQueueExample {
         lock.lock();
         strings.forEach(System.out::print);
         lock.unlock();
-
-
     }
 
 }
