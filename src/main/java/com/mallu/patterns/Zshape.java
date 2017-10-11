@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Zshape {
     public static void main(String... s) {
-        int[][] a = {{1, 2, 3,4,7}, {4, 5,6, 6,9}, {7,8, 8, 9,5},{1,2,4,3,4},{1,2,4,3,0}};
+        int[][] a = {{1, 2, 3,4,7,7}, {4, 5,6,6, 6,9}, {7,8, 8,8, 9,5},{1,2,4,3,1,4},{1,2,9,4,3,0},{1,2,9,4,3,0}};
 //        int m = new Scanner(System.in).nextInt();
 //        int n = new Scanner(System.in).nextInt();
 //        int[][] a = new int[m][n];
