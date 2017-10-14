@@ -6,7 +6,7 @@ package com.mallu.patterns;
 public class Rhombus {
 
     public static void main(String... s) {
-        int n = 17;
+        int n = 11;
         int second = n - 1;
         char charValue = '*';
         int centrePoint = n % 2 == 0 ? n / 2 : ((n / 2) + 1);

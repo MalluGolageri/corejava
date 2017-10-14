@@ -3,7 +3,6 @@ package com.mallu.hashing;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -16,10 +15,16 @@ public class Hashing {
 
     public static void main(String[] args) {
 
-        User user1=new User("abc","abc@gmail.com");
-        User user2=new User("abc1","abc1@gmail.com");
-        User user3=new User("abc1","abc@gmail.com");
+        User user1=new User("abc","abc@gmail.com");//1
+        User user2=new User("abc1","abc1@gmail.com");//2
+
+        User user3=new User("abc6","abc34@gmail.com");//not inserted
+
+        User user5=new User("abc4","abc34@gmail.com");//
+
         User user4=new User("abc2","abc2@gmail.com");
+
+
 
         List<User> userList=new ArrayList<>();
         userList.add(user1);userList.add(user2);userList.add(user3);userList.add(user4);
@@ -75,6 +80,8 @@ class User {
     public String toString() {
         return "Name:"+getName()+ " Email:"+getEmail();
     }
+
+    //this 0 -same names/emails
 }
 
 

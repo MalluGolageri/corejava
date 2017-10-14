@@ -1,8 +1,12 @@
 package test;
 
 
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.concurrent.BrokenBarrierException;
-        import java.util.concurrent.CyclicBarrier;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CyclicBarrier;
         import java.util.logging.Level;
         import java.util.logging.Logger;
 
@@ -40,7 +44,9 @@ public class CyclicBarrierExample {
 
     public static void main(String args[]) {
         //creating CyclicBarrier with 3 parties i.e. 3 Threads needs to call await()
-        final CyclicBarrier cb = new CyclicBarrier(3, () -> {System.out.println("All Parties Arrived");});
+        final CyclicBarrier cb = new CyclicBarrier(4, () -> {
+            System.out.println("All Parties Arrived");
+        });
 
         //starting each of thread
         Thread t1 = new Thread(new Task(cb), "Thread 1");
@@ -55,10 +61,5 @@ public class CyclicBarrierExample {
 
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        //super.finalize();
-        this.example = new CyclicBarrierExample();
-    }
 }
 

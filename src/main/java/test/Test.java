@@ -13,13 +13,11 @@ class Test {
         MyList<String> myList=new MyList<>();
         myList.add("Oye");myList.add("Hello1");myList.add("Hello2");myList.add("Hello3");myList.add("Hello4");
 
-        myList.remove(2);
+        myList.remove(0);
         for (int i=0;i<myList.size();i++){
             System.out.println(myList.get(i));
         }
 
-        System.out.println(Integer.valueOf("5")==Integer.valueOf("5"));
-        System.out.println(new Integer(5)==new Integer(5));
     }
 
     public static < E > void printArray(E[] elements) {
@@ -41,7 +39,7 @@ class MyList<L> {
 
     int totalCapacity=initialCapacity;
 
-    transient Object[] objects=new Object[initialCapacity];
+    Object[] objects=new Object[initialCapacity];
 
     void add(L obj){
         ensureCapacity(size +1);
@@ -68,7 +66,7 @@ class MyList<L> {
         L oldValue = (L) objects[index];
 
         //20== 10 == 20-10-1=9th place removed
-        int numMoved = size - index - 1;
+        int numMoved = size - index - 1; //2=Hello2
         if (numMoved > 0)
             System.arraycopy(objects, index+1, objects, index,
                     numMoved);
