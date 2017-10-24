@@ -11,22 +11,9 @@ public class SinglyLinkedListDemo {
     Node head;
 
     static class Node {
-
         private int data;
         Node next;
-
-        public Node() {
-        }
-
         Node(int data) {
-            this.data = data;
-        }
-
-        public int getData() {
-            return data;
-        }
-
-        public void setData(int data) {
             this.data = data;
         }
     }
@@ -59,8 +46,7 @@ public class SinglyLinkedListDemo {
     }
 
     private static void removeDuplicates(Node head) {
-        Node ptr1 = null, ptr2 = null;
-        ptr1 = head;
+        Node ptr1=head, ptr2;
         while (ptr1 != null && ptr1.next != null) {
             ptr2 = ptr1;
             while (ptr2.next != null) {
@@ -89,7 +75,7 @@ public class SinglyLinkedListDemo {
 
     private static void printLinkedList(Node head) {
         while (head != null) {
-            System.out.println(head.getData());
+            System.out.println(head.data);
             head = head.next;
         }
     }
