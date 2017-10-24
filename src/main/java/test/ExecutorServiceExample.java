@@ -9,6 +9,7 @@ import java.util.concurrent.*;
 public class ExecutorServiceExample {
     public static void main(String... s) throws ExecutionException, InterruptedException{
         ExecutorService executorService = Executors.newFixedThreadPool(5);
+
         Runnable task = () -> {
             System.out.println("Runnable Task");
         };
@@ -20,9 +21,6 @@ public class ExecutorServiceExample {
         Future future=executorService.submit(() -> {
             return "callable task";
         });
-
-        System.out.println("KING".hashCode() + " \n"+"BLAKE".hashCode());
-       // System.out.println(future.get());;
 
     }
 }

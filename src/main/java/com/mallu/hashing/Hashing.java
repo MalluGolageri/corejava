@@ -3,10 +3,7 @@ package com.mallu.hashing;
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by golagem on 10/13/17.
@@ -24,18 +21,17 @@ public class Hashing {
 
         User user4=new User("abc2","abc2@gmail.com");
 
+        Map<User,Map<String,User>[]> users=new HashMap<>();
 
-
-        List<User> userList=new ArrayList<>();
-        userList.add(user1);userList.add(user2);userList.add(user3);userList.add(user4);
-
-        Set<User> users=new HashSet<>();
-        users.add(user1);users.add(user2);users.add(user3);users.add(user4);
-        users.forEach(System.out::println);
+        String s1="abc";
+        String s2=new String("abc").intern();
+        System.out.println(s1 == s2);
+        System.out.println(s1.hashCode() + " "+s2.hashCode());
     }
 }
 
 class User {
+
     private String name;
     private String email;
 
@@ -69,7 +65,6 @@ class User {
     public boolean equals(Object obj) {
         EqualsBuilder equalsBuilder=new EqualsBuilder();
         User user=(User)obj;
-
         if (getName().equals(user.getName())){
             return equalsBuilder.append(getName(), user.getName()).isEquals();
         }
@@ -81,7 +76,6 @@ class User {
         return "Name:"+getName()+ " Email:"+getEmail();
     }
 
-    //this 0 -same names/emails
 }
 
 

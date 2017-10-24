@@ -6,9 +6,9 @@ package com.mallu.patterns;
 public class Rhombus {
 
     public static void main(String... s) {
-        int n = 11;
+        int n = 5;
         int second = n - 1;
-        char charValue = '*';
+        char charValue = '.';
         int centrePoint = n % 2 == 0 ? n / 2 : ((n / 2) + 1);
         for (int i = 0; i < n; i++) {
             for (int j = n; j > 0; j--) {
