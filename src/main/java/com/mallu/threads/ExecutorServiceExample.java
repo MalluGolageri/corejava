@@ -1,4 +1,4 @@
-package test;
+package com.mallu.threads;
 
 import java.util.HashMap;
 import java.util.concurrent.*;
@@ -18,6 +18,10 @@ public class ExecutorServiceExample {
 
         executorService.execute(task);
 
+        executorService.submit(() -> {
+            return "callable task";
+        });
+
         Future future=executorService.submit(() -> {
             return "callable task";
         });
@@ -36,6 +40,7 @@ class MyThread implements Runnable {
 class CallableTask implements Callable{
     @Override
     public Object call() throws Exception {
+        System.out.println("");
         return "callable task";
     }
 }

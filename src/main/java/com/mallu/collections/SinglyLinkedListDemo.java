@@ -1,24 +1,34 @@
 package com.mallu.collections;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by golagem on 10/24/17.
  */
-public class SinglyLinkedListDemo {
 
+class Node {
+    public int data;
+    Node next;
+
+    Node(int data) {
+        this.data = data;
+    }
+}
+
+public class SinglyLinkedListDemo {
     Node head;
 
-    static class Node {
-        private int data;
-        Node next;
-        Node(int data) {
-            this.data = data;
-        }
-    }
-
     public static void main(String[] args) {
+
+//
+//        List<Integer> list=new ArrayList<>();
+//        list.add(20);
+//        list.add(30);
+//        list.add(0,40);
+//        list.forEach(System.out::println);
+
+
         SinglyLinkedListDemo listDemo = new SinglyLinkedListDemo();
         Node node1 = new Node(100);
         listDemo.head = node1;
@@ -33,8 +43,8 @@ public class SinglyLinkedListDemo {
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
-        node5.next=node6;
-        node6.next=node7;
+        node5.next = node6;
+        node6.next = node7;
 
         printLinkedList(listDemo.head);
 
@@ -46,7 +56,7 @@ public class SinglyLinkedListDemo {
     }
 
     private static void removeDuplicates(Node head) {
-        Node ptr1=head, ptr2;
+        Node ptr1 = head, ptr2;
         while (ptr1 != null && ptr1.next != null) {
             ptr2 = ptr1;
             while (ptr2.next != null) {
@@ -79,6 +89,5 @@ public class SinglyLinkedListDemo {
             head = head.next;
         }
     }
-
 }
 

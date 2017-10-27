@@ -1,7 +1,6 @@
-package test;
+package com.mallu.threads;
 
-import java.util.Date;
-        import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.CountDownLatch;
         import java.util.logging.Level;
         import java.util.logging.Logger;
 

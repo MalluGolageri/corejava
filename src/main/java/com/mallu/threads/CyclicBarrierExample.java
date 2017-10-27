@@ -1,11 +1,7 @@
-package test;
+package com.mallu.threads;
 
 
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
 import java.util.concurrent.BrokenBarrierException;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CyclicBarrier;
         import java.util.logging.Level;
         import java.util.logging.Logger;
