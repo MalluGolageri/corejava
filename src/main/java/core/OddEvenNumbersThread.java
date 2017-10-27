@@ -1,4 +1,4 @@
-package test;
+package core;
 
 /**
  * Created by golagem on 10/4/17.

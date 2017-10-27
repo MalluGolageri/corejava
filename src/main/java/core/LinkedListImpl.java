@@ -1,8 +1,6 @@
-package test;
+package core;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentSkipListMap;
 
 /**
  * Created by golagem on 10/14/17.

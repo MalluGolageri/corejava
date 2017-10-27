@@ -1,10 +1,4 @@
-package test;
-
-import com.mallu.parsing.Parent;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+package core;
 
 /**
  * Created by golagem on 10/13/17.

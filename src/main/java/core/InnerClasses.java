@@ -1,4 +1,4 @@
-package test;
+package core;
 class TestMemberOuter1 {
 
     interface MyInterface{

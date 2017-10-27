@@ -1,10 +1,9 @@
-package test;
+package core;
 
 /**
  * Created by golagem on 10/3/17.
  */
 
-        import java.io.IOException;
         import java.util.Locale;
         import java.util.ResourceBundle;
 
