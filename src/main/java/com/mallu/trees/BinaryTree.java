@@ -12,56 +12,32 @@ class Node {
 
 class BinaryTree {
     Node root;
+
     BinaryTree() {
         root = null;
     }
-    /* Given a binary tree, print its nodes according to the
-      "bottom-up" postorder traversal. */
+
     void printPostorder(Node node) {
-        if (node == null)
-            return;
-
-        // first recur on left subtree
+        if (node == null) return;
         printPostorder(node.left);
-
-        // then recur on right subtree
         printPostorder(node.right);
-
-        // now deal with the node
         System.out.print(node.key + " ");
     }
 
-    /* Given a binary tree, print its nodes in inorder*/
     void printInorder(Node node) {
-        if (node == null)
-            return;
-
-        /* first recur on left child */
+        if (node == null) return;
         printInorder(node.left);
-
-        /* then print the data of node */
         System.out.print(node.key + " ");
-
-        /* now recur on right child */
         printInorder(node.right);
     }
 
-    /* Given a binary tree, print its nodes in preorder*/
     void printPreorder(Node node) {
-        if (node == null)
-            return;
-
-        /* first print data of node */
+        if (node == null) return;
         System.out.print(node.key + " ");
-
-        /* then recur on left sutree */
         printPreorder(node.left);
-
-        /* now recur on right subtree */
         printPreorder(node.right);
     }
 
-    // Wrappers over above recursive functions
     void printPostorder() {
         printPostorder(root);
     }
@@ -74,22 +50,54 @@ class BinaryTree {
         printPreorder(root);
     }
 
-    // Driver method
+    public int height(Node node) {
+        if (node == null) {
+            return 0;
+        } else {
+            int leftHeight = height(node.left);
+            int rightHeight = height(node.right);
+            if (leftHeight > rightHeight) {
+                return leftHeight + 1;
+            } else {
+                return rightHeight + 1;
+            }
+        }
+    }
+
+    public void insert(Node node) {
+        insert(root, node.key);
+    }
+
+    private Node insert(Node root, int key) {
+        if (root == null) {
+            root = new Node(key);
+            return root;
+        } else {
+            if (key < root.key) {
+                root.left = insert(root.left, key);
+            } else {
+                root.right = insert(root.right, key);
+            }
+        }
+        return root;
+    }
+
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-        tree.root = new Node(1);
-        tree.root.left = new Node(2);
-        tree.root.right = new Node(3);
-        tree.root.left.left = new Node(4);
-        tree.root.left.right = new Node(5);
-
-        System.out.println("Preorder traversal of binary tree is ");
+        tree.root = new Node(5);
+        tree.root.left = new Node(3);
+        tree.root.right = new Node(8);
+        tree.root.left.left = new Node(1);
+        tree.root.left.right = new Node(4);
+        tree.insert(new Node(13));
+        System.out.println("\n==Preorder==");
         tree.printPreorder();
-
-        System.out.println("\nInorder traversal of binary tree is ");
+        System.out.println("\n==Inorder==");
         tree.printInorder();
-
-        System.out.println("\nPostorder traversal of binary tree is ");
+        System.out.println("\n==Postorder==");
         tree.printPostorder();
+
+
+        System.out.println("\n\nHeight:" + tree.height(tree.root));
     }
 }
