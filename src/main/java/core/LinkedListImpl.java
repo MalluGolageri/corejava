@@ -1,5 +1,6 @@
 package core;
 
+import java.io.File;
 import java.util.*;
 
 /**
@@ -13,7 +14,6 @@ public class LinkedListImpl {
         hashMap.put("`a", "A");
         hashMap.put("aB","A");
 
-
         System.out.println(hashMap.size());
 
         hashMap.forEach((o, o2) -> {
@@ -21,11 +21,7 @@ public class LinkedListImpl {
         });
 
         MyLinkedList myLinkedList=new MyLinkedList();
-
-
     }
-
-
 }
 
 class MyLinkedList {
@@ -37,12 +33,20 @@ class MyLinkedList {
     public static void main(String[] args) {
 
         MyLinkedList linkedList = new MyLinkedList();
-
+        linkedList.add("A");
         linkedList.add("B");
         linkedList.add("C");
-        linkedList.add(0,"A");
+        linkedList.add("D");
+        linkedList.add("E");
+        linkedList.add("F");
+        linkedList.add("G");
+        //linkedList.add(0,"A");
+        //linkedList.add(3,"D");
 
-        linkedList.add(3,"D");
+
+        System.out.println("first node:"+linkedList.first.data);
+        System.out.println("last node:"+linkedList.last.data);
+        System.out.println("Nth Node data:"+getNthNode(linkedList.first,3).data);
 
         for (int i=0;i<linkedList.size;i++)
         System.out.println(linkedList.get(i).data);
@@ -50,8 +54,11 @@ class MyLinkedList {
         reverse(linkedList);
     }
 
-    private static void reverse(MyLinkedList linkedList) {
+    private static Node getNthNode(Node head, int n) {
+        return --n > 0 ? getNthNode(head.next, n) : head;
+    }
 
+    private static void reverse(MyLinkedList linkedList) {
 
         for (int i=linkedList.size-1;i>=0;i--){
             Node node=linkedList.get(i);
@@ -72,7 +79,6 @@ class MyLinkedList {
 
     public Node get(int index) {
         //if(index>=size) throw new IndexOutOfBoundsException("IndexOutOfBoundsException");
-
         if(index < (size>>1)){
              Node node=first;
             for (int i=0; i<index;i++){
@@ -90,7 +96,6 @@ class MyLinkedList {
     }
 
     public void add(int index,Object data){
-
         if(index==size){
             addLast(data);
             return;

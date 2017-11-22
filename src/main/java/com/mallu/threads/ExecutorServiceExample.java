@@ -11,7 +11,9 @@ import java.util.concurrent.*;
 public class ExecutorServiceExample {
     public static void main(String... s) throws ExecutionException, InterruptedException{
         ExecutorService executorService = Executors.newSingleThreadExecutor();
+        Executors.newFixedThreadPool(2);
 
+        Executors.newCachedThreadPool();
         Runnable task = () -> {
             System.out.println("Runnable Task");
         };

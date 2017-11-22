@@ -8,6 +8,7 @@ import java.io.*;
  */
 public class FileHandling {
 
+    //private static final FileHandling currentRuntime = new FileHandling();
     public static void main(String[] args) throws IOException {
         File f = new File("/Users/golagem/github/html-parsing/src/main/java/com/mallu/filehandling/test.txt");
         if (!f.exists()) f.createNewFile();
