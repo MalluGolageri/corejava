@@ -1,12 +1,23 @@
 package core;
 
 import java.io.*;
+import java.util.Scanner;
 
 /**
  * Created by golagem on 10/3/17.
  */
 public class Serialization {
+int i=0;
+
     public static void main(String... args) throws IOException, ClassNotFoundException {
+
+
+        Serialization s=new Serialization();
+
+        System.out.println("hascode:"+s.hashCode());
+        //1414644648
+        //1414644648
+        //1414644648
 
         Student s1 = new Student(12, "raju");
         FileOutputStream fileOutputStream = new FileOutputStream("/Users/golagem/github/html-parsing/src/main/resources/ser.txt");
@@ -73,7 +84,6 @@ class Student implements Externalizable {
         inputStream.close();
         System.out.println(s2.toString());
 
-        Thread t=new Thread();
     }
 
     @Override
