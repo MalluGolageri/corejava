@@ -64,10 +64,10 @@ public class ObjectWrapperExample {
     }
 
     public static void main(String[] args) {
-//        test(null);
-//        test1(null);
-//        testNum(2);
-//        testNum('c');
+        test(null);
+        test1(null);
+        testNum(2);
+        testNum('c');
     }
 
 

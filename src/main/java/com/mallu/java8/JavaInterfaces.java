@@ -6,8 +6,8 @@ package com.mallu.java8;
 
 
 
-interface InterfaceOne{
 
+interface InterfaceOne{
     default void test(){
         System.out.println("default test method");
     }

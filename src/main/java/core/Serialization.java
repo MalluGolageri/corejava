@@ -11,14 +11,6 @@ int i=0;
 
     public static void main(String... args) throws IOException, ClassNotFoundException {
 
-
-        Serialization s=new Serialization();
-
-        System.out.println("hascode:"+s.hashCode());
-        //1414644648
-        //1414644648
-        //1414644648
-
         Student s1 = new Student(12, "raju");
         FileOutputStream fileOutputStream = new FileOutputStream("/Users/golagem/github/html-parsing/src/main/resources/ser.txt");
         ObjectOutputStream outputStream = new ObjectOutputStream(fileOutputStream);
@@ -34,7 +26,9 @@ int i=0;
 
 }
 
-class Student implements Externalizable {
+class Student implements Serializable {
+
+    private static final long serialVersionUID=123L;
 
     int id;
     String name;
@@ -51,17 +45,17 @@ class Student implements Externalizable {
     }
 
 
-    public void writeExternal(ObjectOutput out) throws IOException {
-        out.writeObject(id);
-        out.writeObject(name);
-        out.writeObject(city);
-    }
-
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-        this.id=(int)in.readObject();
-        this.name=(String)in.readObject();
-        this.city=(String)in.readObject();
-    }
+//    public void writeExternal(ObjectOutput out) throws IOException {
+//        out.writeObject(id);
+//        out.writeObject(name);
+//        out.writeObject(city);
+//    }
+//
+//    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+//        this.id=(int)in.readObject();
+//        this.name=(String)in.readObject();
+//        this.city=(String)in.readObject();
+//    }
 
     public static void main(String... args) throws IOException, ClassNotFoundException {
 
@@ -71,18 +65,18 @@ class Student implements Externalizable {
 
         FileOutputStream fileOutputStream=new FileOutputStream("/Users/golagem/github/html-parsing/src/main/resources/ser.txt");
         ObjectOutputStream outputStream=new ObjectOutputStream(fileOutputStream);
-        s1.writeExternal(outputStream);
+        outputStream.writeObject(s1);
 
         outputStream.flush();
         outputStream.close();
 
-
-        Student s2=new Student();
-        ObjectInputStream inputStream=new ObjectInputStream(new FileInputStream("/Users/golagem/github/html-parsing/src/main/resources/ser.txt"));
-        s2.readExternal(inputStream);
-
-        inputStream.close();
-        System.out.println(s2.toString());
+//
+//        Student s2=new Student();
+//        ObjectInputStream inputStream=new ObjectInputStream(new FileInputStream("/Users/golagem/github/html-parsing/src/main/resources/ser.txt"));
+//        s2.readExternal(inputStream);
+//
+//        inputStream.close();
+//        System.out.println(s2.toString());
 
     }
 
