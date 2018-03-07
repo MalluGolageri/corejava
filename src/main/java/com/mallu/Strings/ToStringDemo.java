@@ -12,6 +12,8 @@ public class ToStringDemo {
         //String s1="hel";
        //"str"+null;
        // s+=null!=s?"Dude":"Jine";
+        
+        
     }
 }
 

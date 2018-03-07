@@ -37,7 +37,6 @@ class BinaryTree {
         printPreorder(node.left);
         printPreorder(node.right);
     }
-
     void printPostorder() {
         printPostorder(root);
     }

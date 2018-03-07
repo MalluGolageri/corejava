@@ -11,15 +11,17 @@ public class ThreadsExample {
     public static void main(String... s) throws InterruptedException {
         Thread t1 = new Thread(new Thread1());
         Thread t2 = new Thread(new Thread1());
+        
         t1.start();
+        
         t2.setPriority(10);
         t2.start();
         List<Integer> integers=new ArrayList<>();
         integers.add(2);
 
 
-        System.out.println("aB".hashCode());
-        System.out.println("`a".hashCode());
+//        System.out.println("aB".hashCode());
+//        System.out.println("`a".hashCode());
     }
 }
 

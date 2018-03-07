@@ -20,6 +20,7 @@ public class ExecutorServiceExample {
             System.out.println("Runnable task");
         };
 
+        
 
         Callable<String> c1 = () -> {
             for (int i = 1; i <= 10; i++) {
@@ -44,11 +45,13 @@ public class ExecutorServiceExample {
             return "success";
         };
 
+        
+        
         Set<Callable<String>> callables = new HashSet<>();
         callables.add(c1);
         callables.add(c2);
         callables.add(c3);
-
+      //  executorService.invokeAll(callables);
         Future<String> f1=executorService.submit(c1);
         Future<String> f2=executorService.submit(c2);
         Future<String> f3=executorService.submit(c3);

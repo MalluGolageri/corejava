@@ -3,6 +3,7 @@ package com.mallu.java8;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.Callable;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * Created by golagem on 11/2/17.
@@ -10,6 +11,7 @@ import java.util.concurrent.Callable;
 public class Lambdas {
     private static Map<Integer, Product> map = new HashMap<>();
 
+    
     static {
         map.put(1, new Product(1, "MotoG"));
         map.put(2, new Product(1, "MotoG1"));
@@ -21,7 +23,7 @@ public class Lambdas {
                 .equals("MotoG")).findFirst().get().getValue().name);
 
         Callable c = () -> "hi";
-        Runnable r= ()-> {};
+        Runnable r= ()-> {};        
     }
 }
 
