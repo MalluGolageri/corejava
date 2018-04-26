@@ -17,30 +17,25 @@ public class InterviewQues {
 
     public static void main(String[] args) {
         InterviewQues.Inner inner=new InterviewQues().new Inner();
-        System.out.println(inner.getSum());
-        Map map=new LinkedHashMap<>();
-        map.put(11 ,20);
-        map.put(11,30);
-        map.put(null,null);
-        map.put(null,"ref");
-        System.out.println(map);
+        new C();
     }
 
 }
+
 class A{
     public A(){
-        System.out.println("a");
+        System.out.print("a");
     }
 }
 
 class B extends A{
     public B(){
-        System.out.println("b");
+        System.out.print("b");
     }
 }
 
 class C extends B{
     public C(){
-        System.out.println("c");
+        System.out.print("c");
     }
 }

@@ -6,12 +6,11 @@ package com.mallu.recursion;
 public class Sum {
 
     public static void main(String[] args) {
-        System.out.println(getMultiplied(0, 4));
+        System.out.println(getMultiplied(3, 4));
     }
 
     private static int getMultiplied(int a, int b) {
-        return (b == 0 || a == 0) ? a : a + getMultiplied(a, b - 1);
+        return (b == 1 || a == 1) ? a : a + getMultiplied(a, b - 1);
     }
-
 
 }

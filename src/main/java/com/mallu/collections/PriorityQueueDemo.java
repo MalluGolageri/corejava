@@ -19,9 +19,9 @@ public class PriorityQueueDemo {
         list.add(9);
         list.add(12);
         Random random = new Random();
-        for (int j = 0; j < 10; j++) {
-        //    list.add(random.nextInt());
-        }
+//        for (int j = 0; j < 10; j++) {
+//        //    list.add(random.nextInt());
+//        }
         for (int i = 0; i < list.size(); i++) {
             if (i < queueSize)
                 priorityQueue.add(list.get(i));
